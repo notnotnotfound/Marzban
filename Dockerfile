@@ -18,4 +18,4 @@ RUN apt-get remove -y curl unzip gcc python3-dev
 
 CMD ["bash", "-c", "alembic upgrade head; python main.py"]
 
-Expose 443
+Expose 443, 80
